@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Curve for top text -->
+    <path id="archText" d="M 105,250 A 155,155 0 0,1 395,250" fill="none" />
+    
+    <!-- Red gradient highlights -->
+    <linearGradient id="redPeakLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E51D35" />
+      <stop offset="100%" stop-color="#C5001E" />
+    </linearGradient>
+    <linearGradient id="redPeakDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#AB0E22" />
+      <stop offset="100%" stop-color="#780512" />
+    </linearGradient>
+    <linearGradient id="redPeakMid" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D90429" />
+      <stop offset="100%" stop-color="#9E021A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Arched Text: ASOSIASI LARI TRAIL INDONESIA -->
+  <text fill="#6B7280" font-family="'Plus Jakarta Sans', 'Poppins', sans-serif" font-size="14.5" font-weight="700" letter-spacing="4.5">
+    <textPath href="#archText" startOffset="50%" text-anchor="middle">ASOSIASI LARI TRAIL INDONESIA</textPath>
+  </text>
+
+  <!-- Mountain Peaks (Faceted Origami/Low-Poly Geometric Red Ridges) -->
+  <g id="mountain-ridges">
+    <!-- Left base peak -->
+    <polygon points="120,270 155,235 168,265 140,275" fill="url(#redPeakDark)" />
+    <polygon points="155,235 178,215 190,250 168,265" fill="url(#redPeakMid)" />
+    
+    <!-- Slope under runner -->
+    <polygon points="160,260 200,205 215,245" fill="url(#redPeakDark)" />
+    <polygon points="185,250 215,190 230,235" fill="url(#redPeakLight)" />
+
+    <!-- Center Highest Peak -->
+    <polygon points="215,255 255,148 268,255" fill="url(#redPeakLight)" />
+    <polygon points="215,255 255,148 240,260" fill="url(#redPeakDark)" />
+
+    <!-- Right Peak 1 -->
+    <polygon points="268,255 282,175 305,255" fill="url(#redPeakMid)" />
+    <polygon points="255,148 282,175 268,255" fill="url(#redPeakDark)" />
+
+    <!-- Right Peak 2 (Far Right Slope) -->
+    <polygon points="305,255 330,225 365,270 315,268" fill="url(#redPeakLight)" />
+    <polygon points="282,175 315,210 305,255" fill="url(#redPeakDark)" />
+    <polygon points="330,225 340,240 375,270 365,270" fill="url(#redPeakDark)" />
+  </g>
+
+  <!-- Runner Silhouette (Running uphill to the right) -->
+  <g id="runner" fill="#1F2937">
+    <!-- Head -->
+    <circle cx="215" cy="158" r="9" />
+    
+    <!-- Torso leaning forward -->
+    <path d="M 213,168 L 222,177 L 202,198 L 195,190 Z" />
+
+    <!-- Left Arm pumping forward -->
+    <path d="M 212,172 L 201,162 L 192,168 L 194,173 L 202,168 L 210,178 Z" />
+    
+    <!-- Right Arm back -->
+    <path d="M 218,175 L 228,172 L 226,184 L 221,183 L 223,176 L 217,178 Z" />
+
+    <!-- Front Leg (right leg bent high on mountain step) -->
+    <path d="M 200,196 L 214,198 L 206,218 L 216,219 L 217,224 L 200,223 L 206,203 Z" />
+
+    <!-- Back Leg (left leg trailing on trail) -->
+    <path d="M 197,192 L 180,214 L 165,226 L 162,222 L 175,210 L 192,190 Z" />
+  </g>
+
+  <!-- Main Wordmark: ALTI -->
+  <g id="alti-text">
+    <text x="175" y="312" font-family="'Poppins', sans-serif" font-weight="900" font-size="54" fill="#1F2937" letter-spacing="4">ALT</text>
+    <!-- Letter I with signature red italic slash -->
+    <text x="303" y="312" font-family="'Poppins', sans-serif" font-weight="900" font-size="54" fill="#1F2937">I</text>
+    <polygon points="309,268 322,268 316,288 304,288" fill="#D90429" />
+  </g>
+
+  <!-- Subtitle: PENGURUS CABANG -->
+  <text x="250" y="334" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#6B7280" letter-spacing="4.5" text-anchor="middle">
+    PENGURUS CABANG
+  </text>
+
+  <!-- Bottom Ribbon / Banner: KAB. CIANJUR -->
+  <g id="ribbon-banner">
+    <!-- Ribbon Fold Left (Dark Red) -->
+    <polygon points="145,355 160,342 160,368 145,365" fill="#8D0801" />
+    <polygon points="140,365 160,352 145,340 135,352" fill="#D90429" />
+
+    <!-- Ribbon Fold Right (Dark Red) -->
+    <polygon points="355,355 340,342 340,368 355,365" fill="#8D0801" />
+    <polygon points="360,365 340,352 355,340 365,352" fill="#D90429" />
+
+    <!-- Main Slate Banner Center -->
+    <polygon points="152,345 348,345 340,378 160,378" fill="#4B5563" />
+
+    <!-- Banner Text: KAB. CIANJUR -->
+    <text x="250" y="367" font-family="'Poppins', sans-serif" font-size="18.5" font-weight="800" fill="#FFFFFF" letter-spacing="3" text-anchor="middle">
+      KAB. CIANJUR
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+id,nama,jabatan,bidang,periode,foto,urutan,tampil
+P01,Drs. H. Rahmat Hidayat M.Si,Ketua Umum,Pimpinan Utama,2024 - 2028,https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80,1,TRUE
+P02,Asep Suhendar S.Pd M.Mpd,Wakil Ketua I,Bidang Pembinaan & Prestasi,2024 - 2028,https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80,2,TRUE
+P03,Dr. Ridwan Gunawan S.T,Wakil Ketua II,Bidang Organisasi & Hukum,2024 - 2028,https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=600&q=80,3,TRUE
+P04,Fajar Maulana S.Or,Sekretaris Umum,Sekretariat,2024 - 2028,https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80,4,TRUE
+P05,Dewi Anggraeni S.E,Bendahara Umum,Keuangan & Aset,2024 - 2028,https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80,5,TRUE
+P06,Indra Kurnia S.Pd,Ketua Bidang Binpres,Pembinaan & Prestasi,2024 - 2028,https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=80,6,TRUE
+P07,Agus Firman S.Sos,Ketua Bidang Perlombaan,Kompetisi & Rute Trail,2024 - 2028,https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80,7,TRUE
+P08,Siti Nurhaliza S.I.Kom,Ketua Bidang Humas & Kemitraan,Humas & Publikasi,2024 - 2028,https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=600&q=80,8,TRUE
+P09,dr. Hendra Pratama Sp.KO,Ketua Bidang Medis & Doping,Kesehatan Olahraga,2024 - 2028,https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=600&q=80,9,TRUE

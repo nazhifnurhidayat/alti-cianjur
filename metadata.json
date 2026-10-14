@@ -1,0 +1,6 @@
+{
+  "name": "ALTI Kabupaten Cianjur - Website Resmi",
+  "description": "Website resmi Asosiasi Lari Trail Indonesia (ALTI) Pengcab Kabupaten Cianjur. Informasi atlet, pelatih, pengurus, prestasi, dan kegiatan lari trail.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

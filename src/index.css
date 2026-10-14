@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-red: #D90429;
+  --color-brand-darkred: #8D0801;
+  --color-brand-lightred: #FFF1F2;
+  --color-brand-offwhite: #FAF7F5;
+  --color-brand-dark: #1F2937;
+  --color-brand-gold: #F4B942;
+
+  --font-heading: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-stats: 'Space Grotesk', -apple-system, BlinkMacSystemFont, monospace, sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-brand-dark);
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+/* Red-white mountain motif subtle pattern */
+.bg-topo-pattern {
+  background-color: #ffffff;
+  background-image: radial-gradient(rgba(217, 4, 41, 0.06) 1px, transparent 1px), radial-gradient(rgba(217, 4, 41, 0.03) 1px, #ffffff 1px);
+  background-size: 28px 28px;
+  background-position: 0 0, 14px 14px;
+}
+
+.bg-topo-pattern-subtle {
+  background-image: radial-gradient(rgba(217, 4, 41, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF7F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D9042940;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D9042980;
+}
